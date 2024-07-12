@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muskan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4f51b20c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="webdev2.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a>
+                    </li>
+                    <li><a href="#about">About</a>
+                    </li>
+                    <li><a href="#services">Services</a>
+                    </li>
+                    <li><a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li><a href="#contact">Contact </a>
+                    </li>
+                    <i class=" fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class=" fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>
+                    Hii,My Name is <span class="purple">Muskan</span>
+                    <div>and I am passionate</div>
+                    <span id="element"></span>
+
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="section"><img src="pgimage.png" alt=""></div> -->
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello everyone,I am Muskan from Electronics and Communication Engineering Department in Haldia
+                        Institue of technology.I am from Lakhisarai,Bihar. I have done my matriculation and intermediate
+                        from D.A.V Public school Lakhisarai (C.B.S.E) and currently I'm a 3rd Year student. </p>
+
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>
+                                    C++ with DSA
+                                </span><br>C++coding</li>
+                            <li><span>
+                                    Video Editor
+                                </span><br>Video Editing</li>
+                            <li><span>
+                                    Web Development
+                                </span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>
+                                    2022
+                                </span><br>Internship at Codesoft</li>
+                            <li><span>
+                                    2023
+                                </span><br>Hitian Club</li>
+                            <li><span>
+                                    2023
+                                </span><br>Internship at Codesoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>
+                                    2010-2020
+                                </span><br>Matriculation from C.B.S.E D.A.V Public School</li>
+                            <li><span>
+                                    2020-2022
+                                </span><br>Intermediate from state board K.SS college</li>
+                            <li><span>
+                                    2022-2026
+                                </span><br>Btech in Haldia Institue Of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+     <div id="services"> 
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process. Websites have an array of elements presented in ways that make them easy to navigate.</p>
+                <a href="#">learn more</a>
+              </div>
+              <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>c++</h2>
+                <p>C++ is a generic programming language for building software. It's an object-oriented language. In other words, it emphasizes using data fields with unique attributes (a.k.a. objects) rather than logic or functions. A common example of an object is a user account on a website</p>
+                <a href="#">learn more</a>
+              </div>
+              <div>
+                <i class="fa-sharp fa-solid fa-video"></i>
+                <h2>Video Editor</h2>
+                <p>Video editors transform raw clips and video footage into high-quality finished videos used to inform, engage, and inspire their audience. They use specialized software applications and editing tools to merge content from multiple sources and add pictures, graphics, visual effects, voice, sound effects, and music.</p>
+                <a href="#">learn more</a>
+              </div>
+            </div>
+        </div>
+     </div>
+     <!-- portfolio -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="webimages.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="spotify.jpeg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="shopping.jpeg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">
+            See more
+            </a>
+        </div>
+      </div>
+      <!-- contact -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                  <h1 class="sub-title">Contact Me</h1>
+                  <p><i class="fa-solid fa-paper-plane"></i>
+                    muskansam@gmail.com</p>
+                  <p> <i class="fa-solid fa-phone-volume"></i> 7061773774</p>
+                  <div class="social-icons">
+                    <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    
+                  </div>
+                  <a href="MUSKANCV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="your email-id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright € Muskan.Developed by <i class="fa-sharp fa-solid fa-heart"></i> Muskan</p>
+        </div>
+       </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', 'Dancing'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbyBg4yIZfmATdKj3hrM-ZLjVXjfxHiraZaPo3yPwl6kSRtnIqBmSvb_JtrQUN2Yp5b3/exec'>
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message seny successfully"
+                setTimeout(function()
+                {
+                    msg.innerHTML=""
+                },5000)
+            form.reset()            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
